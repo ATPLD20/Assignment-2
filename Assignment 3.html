@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Marks Entry Form</title>
+</head>
+<body>
+  <h2>Student Marks Entry Form</h2>
+  <form action="submit_marks.php" method="post">
+    <label for="studentName">Student Name:</label><br>
+    <input type="text" id="studentName" name="studentName" required><br><br>
+
+    <label for="maths">Maths (out of 100):</label><br>
+    <input type="number" id="maths" name="maths" min="0" max="100" required><br><br>
+
+    <label for="science">Science (out of 100):</label><br>
+    <input type="number" id="science" name="science" min="0" max="100" required><br><br>
+
+    <label for="english">English (out of 100):</label><br>
+    <input type="number" id="english" name="english" min="0" max="100" required><br><br>
+
+    <label for="history">History (out of 100):</label><br>
+    <input type="number" id="history" name="history" min="0" max="100" required><br><br>
+
+    <input type="submit" value="Submit Marks">
+  </form>
+</body>
+</html>
+

@@ -1,0 +1,33 @@
+HTTP METHODS
+
+GET- GET method is used to retrieve data from a server. Data is visible in the URL.
+POST- POST method is used to send new data to the server.
+PUT- PUT method is used to update existing data completely on the server.
+PATCH- PATCH method is used to partially updates the data on the server.
+DELETE- DELETE method is used to deletes data from the server.
+ 
+HTTP Status Codes
+
+HTTP status Codes are 3-digit numbers returned by the server to indicate the result of a request. 
+There are some status code categories:1xx(Informational), 2xx(Success),3xx(Redirection), 4xx(Client Error), 5xx(Server Error)  
+
+100: It means client can continue request.
+101: It means servers switches protocol as requested.
+102: It means server has received and is processing the request.
+103: It means server sends some headers before final response.
+200: It means the request was successful.
+201: It means new resource was created successfully.
+202: It means request accepted for processing.
+203: It means returned by proxy, not original server.
+204: It is success but no content to return.
+206: It means partial resource was delivered.
+300: It means it has multiple options for the resource.
+301: Resource moved to a new URL.
+302: This means temporarily at a different URL.
+303: Redirect to another resource using GET.
+400: It means server couldn't understand the request.
+401: It means authentication is required.
+403: Server understood request but refuses to authorize.
+404: Request resource not found.
+500: Server error occurred.
+501: Server does not recognize request method.

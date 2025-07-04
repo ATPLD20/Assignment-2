@@ -1,0 +1,46 @@
+HTML BASICS
+
+HTML stands for Hypertext Markup Language.
+It is used to create the structure of a web pages.
+HTML uses tags to define elements like headings, paragraph, links, images, etc.
+There are some tags in HTML given below:
+ 
+HTML Tags
+
+Tags are special codes used to create and structure content on webpage.
+It tell web browser how to display text, images, link and other elements.
+1.<html> this is called open tag, </html> this is called closed tag
+2.<html> tag is a root of html document
+3.<head> tag contains information about html page
+<h1> tag adds a big heading
+<h2>-<h6> tag adds smaller headings
+4.<title> tag specifies the title
+example: <title>AASLIN technologies</title>
+5.<body> tag contains the main content
+6.<p> this tag is paragraph tag it adds a paragraph
+example: <p>This is tapasya working as an intern in asslin technologies</p>
+7.<a> tag adds a link
+8.<img> tag adds an image
+9.<br> tag adds a line break
+10.<li> tag adds a list item
+
+HTML Attributes
+
+HTML attributes give extra information
+1.href attribute: <a> tag defines hyperlink. href attribute specifies URL of page link goes to
+2.src attribute: The <img> tag is used to embed image in html page, the src attributes specifies path to the image to displayed.
+3.alt attribute: is text shown if image doesn't load
+4.title attribute: defines the extra information about element
+5.width & height: sets size for image or video
+6.lang attribute: To declare language of web page
+
+HTML Formatting Tags
+
+<b>: It is a bold tag we can use to format normal text into bold.
+<i>: It is a italic tag use to change the style of a lettering.
+<u>: It is a underline tag.
+<mark>: this tag is use to make highlight.
+<small>: This tag is use to make the text small.
+<del>: This tag is used to delete the text.
+<ins>: This tag used to insert the text.
+
